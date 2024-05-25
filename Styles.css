@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: center;
     background-color: whitesmoke;
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.8);
 }
 
 .logo{
@@ -23,4 +23,103 @@
 .span-logo{
     font-size: 5rem;
     color: crimson;
+}
+
+.nav {
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    background-color: crimson;
+    position: fixed;
+
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 70%;
+}
+
+li{
+    list-style: none;
+}
+
+li .nav-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8rem;
+    color: white;
+    font-weight: bold;
+}
+
+.main{
+    display: flex;
+    text-align: start;
+    width: 70%;
+
+}
+.article {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-top: 5rem;
+    overflow-y: scroll; /* Cambiado a auto para scroll vertical */
+    scroll-behavior: smooth; /* Opcional: para un desplazamiento suave */
+
+    height: 100vh; 
+}
+.article::-webkit-scrollbar {
+    display: none;
+}
+.container-redes{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.redes-item {
+    width: 5rem;
+    height: 2rem;
+    margin: 0;
+    display: flex;
+
+}
+
+.link-redes {
+    color: black;
+}
+
+.img-article{
+   margin: 0;
+   width: 100%;
+}
+
+.article-list{
+    height: 50rem;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 4rem auto;
+    padding: 0 2rem;
+}
+.title-article-list{
+    text-align: start;
+    margin: 1rem 0;
+    
+}
+.link-list {
+    display: flex;
+    width:15rem;
+}
+
+.container-img-list {
+    
+}
+
+.img-list{
+    width: 8rem;
 }
